@@ -1,0 +1,701 @@
+/*----------------Header-----------------------*/
+header {
+  background-color: #0b497200; 
+  padding: 20px 0; 
+  color: #ffffff; 
+  text-align: center;
+  position: relative; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url('bc.jpg');
+}
+
+header h1 {
+  font-size: 2rem; 
+  margin: 0; 
+}
+header {
+  background-color: #FF5733; /* Change this color to your desired background color */
+}
+
+header a:hover {
+  color: #ff5733; 
+}
+/*----------------Header-----------------------*/
+
+/*----------------Home-----------------------*/
+.home {
+  position: relative;
+  background-image: url('bc.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(252, 251, 251, 0.5); 
+}
+/*----------------Home-----------------------*/
+
+/*----------------team-----------------------*/
+.team {
+  position: relative;
+  background-image: url('bc2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.team::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(253, 252, 252, 0); 
+}
+
+/*--------------------fea--------------------------*/
+.feature{
+  position: relative;
+  background-image: url('bc2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.feature::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(253, 252, 252, 0); 
+}
+
+.lit{
+  position: relative;
+  background-image: url('bc2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.lit::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(253, 252, 252, 0); 
+}
+
+.prod{
+  position: relative;
+  background-image: url('bc2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.prod::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(253, 252, 252, 0); 
+}
+
+.title-image{
+  margin-left: 10%;
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+.daisy{
+  margin: 0 20%;
+
+}
+
+.tulipback{
+  margin: 0 20%;
+
+}
+.row{
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+h1 {
+  font-family: 'Times New Roman', serif;
+  font-size: 4.5rem;
+  line-height: 1.5;
+  font-weight: medium;
+}
+
+
+h2 {
+  font-family: 'Times New Roman', serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: medium;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+  font-family: 'Times New Roman', serif;
+}
+
+.logo{
+  height: 250px;
+  width: 250px;
+}
+
+.container-fluid{
+    margin: 0 10px;
+}
+
+/*----------------team-----------------------*/
+
+/*----------------Nav animation-----------------------*/
+
+.nav-link-animation {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.nav-link-animation:hover {
+  transform: scale(1.1);
+  color: #FF5733; 
+}
+/*----------------animation-----------------------*/
+.carousel-item {
+  animation: fadeIn 1s ease both;
+}
+
+.carousel-item:hover {
+  transform: scale(1.1);
+}
+
+/*------------------------Arrow Color-------------------------------*/
+.carousel-control-prev .carousel-control-prev-icon,
+.carousel-control-next .carousel-control-next-icon {
+    background-color: #FF5733; 
+}
+/*------------------------------stone Css-------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Comfortaa:wght@300;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Comfortaa', cursive;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.askme{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+.askme:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(dokmai.jpg) no-repeat center;
+    background-size: cover;
+    z-index: -1; /* ตั้งค่าให้ wallpaper อยู๋ด้านหลัง 1 ขั้น */
+    filter: blur(50px);
+}
+
+.askme-box{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center ;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+}
+
+.left{
+    width: 100%;
+    height: 100%;
+    background: url(dokmai.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.rigth{
+    padding: 25px 40px;
+    text-align: center;
+}
+
+h2{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+h2::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #DCB8B0;
+}
+
+.field{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+
+.field:hover{
+    background-color: #E1C9C0;
+}
+
+.field:focus{
+    background-color: #fff;
+    border: 2px solid rgba(20, 160, 109, 0.47);
+}
+
+.area{
+    min-height: 150px;
+}
+
+.btn{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem; 
+    background-color: #DCB8B0;
+    cursor: pointer;
+    outline: none;
+    border:none;
+    color: #fff;
+    transition:  .3s;
+}
+
+.btn:hover{
+    background-color: #DCB8B0;
+}
+
+@media screen and (max-width:888px){
+    .askme-box{
+        grid-template-columns: 1fr;
+    }
+
+    .left{
+        height: 200px;
+    }
+}
+
+/*-----------------------Changtext Animation-----------------------------*/
+.change-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.change-text h3 {
+  display: inline-flex;
+  margin: 0;
+  vertical-align: top;
+}
+
+.change-text h3 .word {
+  position: absolute;
+  display: flex;
+  opacity: 0;
+  animation-duration: 0.38s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.change-text h3 .word .letter {
+  transform-origin: center center 25px;
+  animation-duration: 0.32s;
+  animation-timing-function: cubic-bezier(0.6, 0, 0.7, 0.2);
+  animation-fill-mode: forwards;
+}
+
+.change-text h3 .word .letter.out {
+  transform: rotateX(90deg);
+  animation-name: rotateOut;
+}
+
+.change-text h3 .word .letter.in {
+  animation-name: fadeIn;
+}
+
+.change-text h3 .word .letter.behind {
+  transform: rotateX(-90deg);
+}
+/*-----------------------------------------------------------------------------*/
+
+
+.team{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #D6D0CF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.team-content{
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+.team-content img{
+  width: 100%;
+  height: auto; 
+  border-radius: 15px;
+  margin-bottom: 15px;
+} 
+.center h1{
+  color: rgb(0, 0, 0);
+  font-size: 4rem;
+  text-align: center;
+}
+.box{
+  padding: 16px;
+  background: #DCB8B0;
+  border-radius: 15px;
+  transition: all .38s ease;
+}
+.box h3{
+  font-size: 23px;
+  font-weight: 600;
+  color: #7b2222;
+  margin-bottom: 8px;
+}
+.box h5{
+  font-size: 15px;
+  font-weight: 600;
+  color: #c74444;
+  margin-bottom: 15px;
+  Letter-spacing: 2px;
+}
+.icons i{
+  display: inline-block;
+  color: #060309;
+  font-size: 20px;
+  margin: 0 8px;
+  transition: all .38s ease;
+}
+.icons i:hover{
+  transform: scale(1.2);
+}
+
+
+.box:hover {
+  transform: translate(-10px);
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+}
+
+
+button {
+  margin-top: 10px;
+  width: 8em;
+  height: 3em;
+  border-radius: 30em;
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+button::before {
+  content: '';
+  width: 0;
+  height: 3em;
+  border-radius: 30em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #3498db, #86e2d5);
+  transition: width 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+button:hover::before {
+  width: 100%;
+}
+
+
+#title{
+  background-color: #ffffff;
+  color: #C8AE7D;
+}
+
+.container-fluid{
+  padding: 10% 15% 10% 15%;
+}
+
+.cursor-dot{
+  width: 5px;
+  height: 5px;
+  background-color: rgb(63, 42, 30);
+}
+
+.cursor-outline{
+  width: 30px;
+  height: 30px;
+  border: 2px solid hsla(0, 33%, 25%, 0.837);
+}
+
+.cursor-dot,.cursor-outline{
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.detail-button {
+  margin: 3% 3% 5% 35%;
+  background-color: #765827;
+  border: 0;
+  font-family: 'Mitr', sans-serif;
+
+}
+
+.p1{
+  text-align: center;
+}
+
+.titlename{
+  text-align: center;
+}
+
+.title-image {
+  width: 80%;
+}
+
+h1 {
+  font-family: 'Mitr', sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: medium;
+}
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 3% 3% 15% 3%;
+}
+
+h3 {
+  font-family: 'Mitr', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Mitr', sans-serif;
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #65451F;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #a0a0a0;
+}
+
+*{box-sizing: border-box; -webkit-box-sizing: border-box; }
+
+.CSSgal {
+  position: relative;
+  overflow: hidden;
+  height: 100%; /* Or set a fixed height */
+}
+
+/* SLIDER */
+
+.CSSgal .slider {
+  height: 100%;
+  white-space: nowrap;
+  font-size: 0;
+  transition: 0.8s;
+}
+
+/* SLIDES */
+
+.CSSgal .slider > * {
+  font-size: 1rem;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+  height: 100%;
+  width: 100%;
+  background: none 50% no-repeat;
+  background-size: cover;
+}
+
+/* PREV/NEXT, CONTAINERS & ANCHORS */
+
+.CSSgal .prevNext {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  width: 100%;
+  height: 0;
+}
+
+.CSSgal .prevNext > div+div {
+  visibility: hidden; /* Hide all but first P/N container */
+}
+
+.CSSgal .prevNext a {
+  background: #a58686;
+  position: absolute;
+  width:       60px;
+  height:      60px;
+  line-height: 60px; /* If you want to place numbers */
+  text-align: center;
+  opacity: 0.7;
+  -webkit-transition: 0.3s;
+          transition: 0.3s;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0 ;
+}
+.CSSgal .prevNext a:hover {
+  opacity: 1;
+}
+.CSSgal .prevNext a+a {
+  left: auto;
+  right: 0;
+}
+
+/* NAVIGATION */
+
+.CSSgal .bullets {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+}
+.CSSgal .bullets > a {
+  display: inline-block;
+  width:       30px;
+  height:      30px;
+  line-height: 30px;
+  text-decoration: none;
+  text-align: center;
+  background: rgba(255, 255, 255, 1);
+  -webkit-transition: 0.3s;
+          transition: 0.3s;
+}
+.CSSgal .bullets > a+a {
+  background: rgba(255, 255, 255, 0.5); /* Dim all but first */
+}
+.CSSgal .bullets > a:hover {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* NAVIGATION BUTTONS */
+/* ALL: */
+.CSSgal >s:target ~ .bullets >* {      background: rgba(255, 255, 255, 0.5);}
+/* ACTIVE */
+#s1:target ~ .bullets >*:nth-child(1) {background: rgba(255, 255, 255,   1);}
+#s2:target ~ .bullets >*:nth-child(2) {background: rgba(255, 255, 255,   1);}
+#s3:target ~ .bullets >*:nth-child(3) {background: rgba(255, 255, 255,   1);}
+#s4:target ~ .bullets >*:nth-child(4) {background: rgba(255, 255, 255,   1);}
+/* More slides? Add here more rules */
+
+/* PREV/NEXT CONTAINERS VISIBILITY */
+/* ALL: */
+.CSSgal >s:target ~ .prevNext >* {      visibility: hidden;}
+/* ACTIVE: */
+#s1:target ~ .prevNext >*:nth-child(1) {visibility: visible;}
+#s2:target ~ .prevNext >*:nth-child(2) {visibility: visible;}
+#s3:target ~ .prevNext >*:nth-child(3) {visibility: visible;}
+#s4:target ~ .prevNext >*:nth-child(4) {visibility: visible;}
+/* More slides? Add here more rules */
+
+/* SLIDER ANIMATION POSITIONS */
+
+#s1:target ~ .slider {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
+#s2:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
+#s3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
+#s4:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
+/* More slides? Add here more rules */
+
+
+/* YOU'RE THE DESIGNER! 
+   ____________________
+   All above was mainly to get it working :)
+   CSSgal CUSTOM STYLES / OVERRIDES HERE: */
+
+.CSSgal{
+  color: #fff;  
+  text-align: center;
+}
+.CSSgal .slider h2 {
+  margin-top: 40vh;
+  font-weight: 200;
+  letter-spacing: -0.06em;
+  word-spacing: 0.2em;
+  font-size: 3em;
+}
+.CSSgal a {
+  border-radius: 50%;
+  margin: 0 3px;
+  color: rgba(0,0,0,0.8);
+  text-decoration: none;
+}
