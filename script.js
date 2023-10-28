@@ -39,11 +39,11 @@ changeText();
 setInterval(changeText, 3000);
 
 //////////////////////////////////////////////////////////////////////////////////////////
-$('#carouselExampleIndicators').carousel();
+//$('#carouselExampleIndicators').carousel();
 
-$('#carouselExampleIndicators').carousel({
-    interval: 3000 
-});
+//$('#carouselExampleIndicators').carousel({
+    //interval: 3000 
+//});
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 let currentIndex = 0;
